@@ -1,7 +1,31 @@
 aid: jarmin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jarmin.png
 name: Jarmin
-description: Jarmin is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jarmin is a Y Combinator-backed company building autonomous "AI employees" for
+  technical and operational roles — ML engineers, financial analysts, account
+  executives, compliance analysts, data analysts, project managers, and paralegals.
+  Rather than a single chatbot, Jarmin operates a system of proprietary agents,
+  models, and automations that learn a role's responsibilities, connect to a
+  company's internal systems and data sources, experiment with approaches, and run
+  end-to-end workflows autonomously (with optional human approval at key decision
+  points). For ML work this spans domain-specific feature engineering, model
+  selection under constraints, hyperparameter optimization, and deploying production
+  pipelines. Founded by engineers from Meta, Apple, AWS, Lockheed Martin, and
+  JPMorgan Chase, Jarmin targets investment banking, fintech, and legal verticals.
+  This profile was surfaced as a Y Combinator portfolio lead; at enrichment time
+  Jarmin publishes no public developer API, SDKs, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/jarmin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Agentic Systems
+- Machine Learning
+- Automation
+- AI Employees
+- Y Combinator
 apis: []
+common:
+- type: TrustCenter
+  url: security/jarmin-trust-center.yml
+- type: DomainSecurity
+  url: security/jarmin-domain-security.yml
+- type: Website
+  url: https://jarmin.ai/
+- type: TermsOfService
+  url: https://jarmin.ai/terms
+- type: PrivacyPolicy
+  url: https://jarmin.ai/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

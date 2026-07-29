@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.jarmin.ai/
+url: https://trust.jarmin.ai/
+# NOTE: The automated keyword probe matched framework names (ISO 27001, PCI DSS,
+# HIPAA, GDPR) that appear in the trust-platform template but are NOT claimed as
+# achieved. Verified against the live page: the only certification Jarmin asserts
+# is SOC 2 Type II, and it is explicitly "in progress" (working toward, not yet
+# attested). No Compliance pointer is emitted because no certification is achieved.
+certifications:
+- name: SOC 2 Type II
+  status: in-progress
+  note: >-
+    "We are currently working toward SOC 2 Type II and will update this Trust
+    Center as our controls, policies, and supporting documentation are reviewed
+    and made available." Page references 25 policies and 35 controls.
+subprocessors:
+- name: Amazon Web Services
+  purpose: Cloud computing infrastructure (compute, storage, databases)
+evidence:
+- source: https://trust.jarmin.ai/
+  verified: SOC 2 Type II listed as in-progress; AWS documented as subprocessor
