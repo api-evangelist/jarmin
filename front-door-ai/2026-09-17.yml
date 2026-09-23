@@ -1,0 +1,29 @@
+# Front Door AI Index — jarmin — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: jarmin
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: jarmin.ai
+  final_host: www.jarmin.ai
+  ownership: own
+  owner: jarmin
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 42.02
+  words: 357
+  tiers:
+    agentic: 2
+    core: 13
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 8
+    ML: 5
+    agent: 1
+    agentic: 1
+    fine-tune: 1
