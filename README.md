@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jarmin is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Jarmin is a Y Combinator-backed company building autonomous "AI employees" for technical and operational roles — ML engineers, financial analysts, account executives, compliance analysts, data analysts, project managers, and paralegals. Rather than a single chatbot, Jarmin operates a system of proprietary agents, models, and automations that learn a role's responsibilities, connect to a company's internal systems and data sources, experiment with approaches, and run end-to-end workflows autonomously (with optional human approval at key decision points). For ML work this spans domain-specific feature engineering, model selection under constraints, hyperparameter optimization, and deploying production pipelines. Founded by engineers from Meta, Apple, AWS, Lockheed Martin, and JPMorgan Chase, Jarmin targets investment banking, fintech, and legal verticals. This profile was surfaced as a Y Combinator portfolio lead; at enrichment time Jarmin publishes no public developer API, SDKs, or API documentation surface.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · AI Agents · Agentic Systems · Machine Learning · Automation · AI Employees · Y Combinator
+
+## Jarmin on APIs.io
+
+Everything profiled for Jarmin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jarmin/](https://apis.io/providers/jarmin/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [jarmin](https://apis.io/servers/jarmin/jarmin/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jarmin Domain Security](https://apis.io/security/jarmin/jarmin-domain-security/)
+- [Jarmin Trust Center](https://apis.io/security/jarmin/jarmin-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jarmin.ai/)
+- [Blog](https://www.jarmin.ai/press)
+- [Terms of service](https://jarmin.ai/terms)
+- [Privacy policy](https://jarmin.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 11.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jarmin/](https://apis.io/providers/jarmin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jarmin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jarmin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
